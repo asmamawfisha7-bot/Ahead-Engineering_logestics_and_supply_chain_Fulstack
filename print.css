@@ -1,0 +1,12 @@
+.print{
+    size: A4;
+    margin:0 ;
+
+	 
+    }
+     .buttonprint{
+       display: none;
+       visibility: none;
+
+     }
+        

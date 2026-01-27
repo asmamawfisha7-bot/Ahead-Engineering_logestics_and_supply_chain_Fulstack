@@ -1,0 +1,100 @@
+ .header{
+    background-color:#fc9;
+    padding: 13px;
+    text-align:center;
+}	
+.navbar{
+        width:100%;
+        background:gray;
+        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px rgba(0,0,0,0.12);
+        }
+
+    ul{
+ text-align:left;
+ display:inline;
+ margin:0;
+ padding:0;
+ list-style:none;
+ }
+ ul li{
+	 font:bold 12px/18px italic;
+	 display:inline-block;
+	 position:relative;
+     
+	 padding:25px 20px;
+	 margin-right:-25px;
+	 background:gray;	 
+ }
+
+ ul li a{
+	 text-decoration:none;
+	 padding:25px 20px;
+	 color:white;
+	 font-size:18px;
+ }
+ 
+ 
+ ul li hover{
+	 background:#262626;
+	 color:white;
+ }
+
+
+ ul li ul{
+	 padding:0;
+	 position:absolute;
+	 top:70px;
+	 left:0;
+	 width:100%;
+	 display:none;
+	 visibility:hidden;
+box-shadow:0 2px 5px 0 rgba(76, 131, 233, 0.16),0 2px 10px rgba(0,0,0,0.12);	 
+ }
+
+
+ ul li ul li{
+	 background:gray;
+	 display:block;
+	 border: 10px;
+ }
+
+
+ ul li ul li:hover{
+	 background:gray;
+ }
+
+
+ ul li:hover ul{
+	 display:block;
+	 opacity:1;
+	 visibility:visible;
+ }
+
+ ul ul ul li{
+	 display:none;
+ }
+ ul ul li:hover li{
+	 display:block;
+ }
+ ul ul ul{
+	 left:100%;
+	 top:0; 
+	 }
+a:active{
+	background-color:yellow;
+}	
+ 
+ct { 
+	
+   text-align: center;
+}
+logo{
+	top:70px;
+	left:0;
+	width:100%;
+}
+.login{
+	margin-top: 50px;
+	background-color: #262626;
+	border: 50px;
+}
